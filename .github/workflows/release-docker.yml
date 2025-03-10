@@ -30,7 +30,7 @@ jobs:
         uses: docker/metadata-action@v5
         with:
           images: |
-            innei/shiro
+            paff0329/shiro
           tags: |
             type=ref,event=branch
             type=semver,pattern={{version}}
